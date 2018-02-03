@@ -25,7 +25,7 @@
 	 <geometry>
      <box size="1.8 0.755 0.2" />
 	 </geometry>
-	 <material name="red" />
+	 <material name="body" />
 	</visual>
 
 	<collision>
@@ -65,7 +65,7 @@
         <geometry>
           <cylinder length="0.26" radius="0.24"/>
         </geometry>
-        <material name="darkgrey" />
+        <material name="wheels" />
       </visual>
 
 
@@ -161,7 +161,7 @@
       <geometry>
         <box size="0.5 0.25 0.1" />
       </geometry>
-      <material name="lightred"/>
+      <material name="top"/>
     </visual>
 
     <inertial>
@@ -194,7 +194,7 @@
       <geometry>
   <box size="0.5 0.25 0.047" />
       </geometry>
-	<material name="lightred"/>
+	<material name="top"/>
     </visual>
 
     <inertial>
